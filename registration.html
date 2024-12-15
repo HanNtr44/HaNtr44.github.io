@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RareBook</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Mulish:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__top">
+				<a href="#" class="logo">
+					<img src="images/logo.svg" alt="logo">
+				</a>
+				<nav class="menu">
+					<div class="burger-icon">
+						<div class="burger-line"></div>
+						<div class="burger-line"></div>
+						<div class="burger-line"></div>
+					</div>
+					<ul class="menu___list">
+						<li class="menu__item">
+							<a href="#" class="menu__item-link">Главная</a>
+						</li>
+						<li class="menu__item">
+							<a href="catalog.php" class="menu__item-link">Каталог</a>
+						</li>
+						<li class="menu__item">
+							<a href="contact.php" class="menu__item-link">Контакты</a>
+						</li>
+						<li class="menu__item accoutn btn">
+							<a href="contact.php" class="menu__item-link accoutn btn">Личный кабинет</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+	</header>
+	<main class="main">
+		<section class="registration">
+			<div class="container">
+				<h3 class="registration__title">Регистрация</h3>
+				<form action="registration.php" class="registration__form" method="POST">
+					<label class="registration__label">
+						<input name="name" type="text" class="registration__input" placeholder="Ваше имя">
+						<input name="email" type="email" class="registration__input" placeholder="E-mail">
+						<input name="password" type="text" class="registration__input" placeholder="Пароль">
+					</label>
+					<label class="checbox">
+						<input class="chec-box" type="checkbox"> <span class="check-style"></span>
+						Подтверждаю обработку данных
+					</label>
+					<button class="registration__btn" type="submit">Создать аккаунт</button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<a href="#" class="logo">
+					<img src="images/logo.svg" alt="logo">
+				</a>
+				<div class="copyright">
+					Все права защищены
+				</div>
+				<ul class="footer___list">
+					<li class="footer__item">
+						<a href="#" class="footer__item-link">Главная</a>
+					</li>
+					<li class="footer__item">
+						<a href="catalog.php" class="footer__item-link">Каталог</a>
+					</li>
+					<li class="footer__item">
+						<a href="contact.php" class="footer__item-link">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
