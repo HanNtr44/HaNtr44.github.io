@@ -106,7 +106,7 @@ body{
 .work__subtitle{
 	color: #3D3D3F;
 	font-family: 'Mulish', sans-serif;
-	font-size: 42px;
+	font-size: 36px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 50px; /* 119.048% */
@@ -536,17 +536,17 @@ body{
 .book__link{
 	display: inline-block;
 	padding: 10px 20px;
-	background: #FD695A;
-	border: 1px solid #FD695A;
+	background: #4142c9;
+	border: 1px solid #4142c9;
 	color: #fff;
 	border-radius: 14px;
 	transition: all 0.3s;
 }
 
 .book__link:hover{
-	border: 1px solid #FD695A;
+	border: 1px solid #4142c9;
 	background: #fff;
-	color: #FD695A;
+	color: #4142c9;
 }
 
 blockquote cite {
